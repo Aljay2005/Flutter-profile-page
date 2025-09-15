@@ -53,7 +53,7 @@ class ProfilePage extends StatelessWidget {
               ),
               child: ClipOval(
                 child: Image.network(
-                  'https://picsun.photos/300/300?random=person',
+                  'https://drive.google.com/file/d/1CngCMk62TdgyjdvR8UnQ4pxU54uQa5Dw/view?usp=drive_link',
                   width: 160,
                   height: 160,
                   fit: BoxFit.cover,
@@ -65,7 +65,7 @@ class ProfilePage extends StatelessWidget {
             //name
             SizedBox(height: 20,),
             Text(
-              'Global Reciprocal Colleges',
+              'Aljay S. Santianes',
                   style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
@@ -107,7 +107,7 @@ class ProfilePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'program Description',
+                    'Data Administrator',
                  style: TextStyle(
                    fontSize: 20,
                    fontWeight: FontWeight.bold,
@@ -116,7 +116,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'The BS Information Technology program includes the study if the utilization of both hardware and software technologies',
+                    'Hello! My name is Aljay Santianes from Bagong Barrio Caloocan city im 20 yrs old and currently taking BSIT in Global Reciprocal Colleges',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey[700],
